@@ -40,10 +40,9 @@ let firstName = "Happy",
 /* We cam not use that*/
 /* let 12ab = "anything",
     my-name = "anythings"; */
-    
 /* We use const as aliases for difficult-to-remember values*/
 const COLOR_RED = "#F00";
 
 console.log(COLOR_RED);
 let myColor = COLOR_RED;
-console.log(myColor)
+console.log(myColor);
