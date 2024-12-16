@@ -60,22 +60,3 @@ console.log(und);    //undefined
 
 //Symbol
 //Object
-
-/* typeof operator */
-console.log(typeof "Hello");
-console.log(typeof 123);
-console.log(typeof true);
-console.log(typeof 12n);
-console.log(typeof undefined);
-
-console.log(typeof null);  //It show object. That's Bug.
-
-
-
-console.log(typeof alert);   //Function, because it a function
-console.log(typeof Math);  //Object, built-in object that provides mathematical operations
-
-let check_Type = "123";
-console.log(typeof(check_Type));  //String
-const type_Value = "Arjul";
-console.log(typeof type_Value);  //String.
